@@ -1,8 +1,24 @@
 aid: dawandacom
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dawandacom.png
 name: DaWanda.com
-description: DaWanda.com is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: DaWanda.com was a German online marketplace for handmade, unique, and custom-made products,
+  founded in 2006 in Berlin. It connected independent makers and small designers with buyers across
+  Germany and Europe, comparable to Etsy in the DACH region. DaWanda ceased operations on 30 August 2018
+  and partnered with Etsy to migrate its sellers and buyers; the www.dawanda.com domain now redirects to
+  Etsy Germany. This profile was surfaced as a portfolio company of Insight Partners and added to the API
+  Evangelist network as a stub. No public developer program or API surface was found during enrichment;
+  the company is defunct and retained here as a historical/portfolio record.
 url: https://raw.githubusercontent.com/api-evangelist/dawandacom/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +26,18 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: Ceased operations 2018-08-30; www.dawanda.com redirects to Etsy Germany.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Marketplace
+- E-Commerce
+- Handmade
+- Germany
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/dawandacom-domain-security.yml
 - type: Website
   url: http://www.dawanda.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
