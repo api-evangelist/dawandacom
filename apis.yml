@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'http://www.dawanda.com/', status: 301, note: 'declared website redirects to https://www.etsy.com/de — a different registrable domain (dawanda.com -> etsy.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dawandacom.png
 name: DaWanda.com
 description: DaWanda.com was a German online marketplace for handmade, unique, and custom-made products,
